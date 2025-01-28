@@ -27,3 +27,12 @@ p my_profile["location"]["city"]
 
 my_profile["name"] = "Ben Resnick"
 puts my_profile
+
+
+complete_profile = { "name" => "Ben Block",
+                     "location" => { "city" => "Chicago", "state" => "Illinois" },
+                     "timeline" => [{ "status" => "Eating tacos", "posted" => "7:30am" },
+                                    { "status" => "Brushing teeth", "posted" => "8:00am" },
+                                    { "status" => "Eating more tacos", "posted" => "9:00am" }] }
+
+ puts complete_profile["timeline"][0]["status"]                        
