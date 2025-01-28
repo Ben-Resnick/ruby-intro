@@ -15,3 +15,17 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+
+my_list = ["milk", "eggs", "bacon"]
+friend_list = ["beer", "cookies",  "apples"]
+
+one_list = my_list + friend_list
+
+p one_list .sort
+
+one_list_1 = my_list | friend_list
+
+for buy_food in one_list_1
+    puts "buy #{buy_food} "
+end
